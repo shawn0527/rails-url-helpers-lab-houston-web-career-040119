@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def active_student_path
+    @student = Student.find(params[:id])
   end
 
   private
