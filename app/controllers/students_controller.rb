@@ -8,6 +8,9 @@ class StudentsController < ApplicationController
   def show
   end
 
+  def active_student_path
+  end
+
   private
 
     def set_student
